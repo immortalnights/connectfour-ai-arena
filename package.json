@@ -1,0 +1,31 @@
+{
+  "name": "connectfour-ai-arena",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "dev": "nodemon --inspect-brk .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immortalnights/connectfour-ai-arena.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immortalnights/connectfour-ai-arena/issues"
+  },
+  "homepage": "https://github.com/immortalnights/connectfour-ai-arena#readme",
+  "dependencies": {
+    "nodemon": "^2.0.3",
+    "noughtsandcrossesbattle": "git+https://github.com/immortalnights/noughtsandcrosses-ai-areana.git",
+    "underscore": "^1.10.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
+  }
+}
