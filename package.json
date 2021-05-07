@@ -21,7 +21,7 @@
   "dependencies": {
     "nodemon": "^2.0.3",
     "noughtsandcrossesbattle": "git+https://github.com/immortalnights/noughtsandcrosses-ai-areana.git",
-    "underscore": "^1.10.2"
+    "underscore": "^1.12.1"
   },
   "nodemonConfig": {
     "ignore": [
